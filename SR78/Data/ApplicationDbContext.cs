@@ -14,5 +14,6 @@ namespace SR78.Data
         {
         }
         public DbSet<VehicleType> VehicleType { get; set; }
+        public DbSet<Brand> Brand { get; set; }
     }
 }
